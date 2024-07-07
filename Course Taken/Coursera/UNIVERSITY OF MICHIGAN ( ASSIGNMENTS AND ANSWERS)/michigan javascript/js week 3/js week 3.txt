@@ -1,0 +1,10 @@
+js week 3
+To create an array just use - var variable=[array items]
+To create an array using dom element we can use var variable=document.getElementsByClassName['imgs'];
+to add an element in an array example= arrayname[arrayname.length]=element;
+iteration means looping.
+block - statments we want to put togather.
+the excuetion of block only necessary is flow of control.
+Reserved word in programming can not use them in normal bases like in variable etc.
+Error - syntatic error("type,undefined variable,forgeting curly braces").
+	logical error(wrong with thought process)

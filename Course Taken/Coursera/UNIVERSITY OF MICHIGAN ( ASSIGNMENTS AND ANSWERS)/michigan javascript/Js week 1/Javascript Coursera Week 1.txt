@@ -1,0 +1,15 @@
+Javascript Coursera Week 1 Short note.
+Every webpage is built on DOM(structure like tree). - Javascript uses it because javascript has API - Application programming interface it is used to interact with the programm..(always same). for example document.getelementbytagname('').
+object : document( document.URI,height,links,bgColor).
+id classes in divs are called node.
+nodeList - array eg document.getElementsByTagName(""). would return a set of nodes.
+attributes - using the attributes of the DOM.
+Specificis APIs - document.getElementById(id). document.getElementsByClassName(clss), element.innerHTML, element.style, element.setAttribute(attribute, value). element.remove Attribute(attribute)
+data is displayed via : window.alert(), window.prompt(), documet.write(), element.innerHTML="", console.log()(used for debugging) .
+<noscript><noscript> - use noscript tag if noscript if the browser doesn't support anykind of script.
+Some objects in javascript : Date();, window.location.hr,document.baseURI, window.innerWidth(to show the number of width) etc.
+Data Types are:Array,object,number,Boolan,String.
+=== = must have the same Data type.
+!(x==12) if x is 12 the answer is false.
+document.getElementByID("").style.attribute="value".
+

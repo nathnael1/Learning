@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url("Rato.otf");
+
+    }
+body{
+    background:url("bg.jpg");
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first{
+    width:100%;
+    /* padding:10px; */
+    background-color: #192a51;
+}
+header h1{
+    color:#fff;
+    font-size:1.1em;
+    text-align: center;
+    padding:10px;
+}
+
+.link{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+ul li a i{
+    font-size: 20px;
+   padding:5px;
+}
+.second{
+    width:100%;
+   
+    margin:0;
+}
+.second ul{
+    
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+  
+
+  
+}
+.second ul li{
+    padding:10px;
+    font-size:0.8em;
+   background-color:#192a51;
+    font-family:CustomFont;
+    color:#fff;
+}
+.third{
+    width:100%;
+
+
+}
+.third a{
+   
+    text-decoration: none;
+   
+}
+video{
+    width:150px;
+    height:150px;
+    display: block;
+    margin:0 auto;
+    padding:10px;
+    border-radius: 20px;
+}
+a p{
+    margin:0 auto;
+    width:100px;
+    background-color: #fff;
+    color:#000;
+    text-align: center;
+    margin-top:-10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:10px;
+    background-color:#000
+}
+footer p{
+    color:#fff;
+    text-align:center;
+}
+.second ul li video{
+    display:none;
+}
+@media all and (min-width:700px){
+    .first{
+        display:grid;
+        justify-content: center;
+        grid-template-columns:repeat(5,1fr);
+        padding: 10px;
+        padding-right: 0;
+        padding-left: 0;
+        grid-template-areas: 
+        "head head head link link"
+        ;
+    }
+
+    .link{
+   justify-self: flex-end;
+   grid-area: link;
+   align-items: flex-end;
+
+    }
+    ul li a i{
+        font-size: 2rem;
+       padding:10px;
+    }
+    header{
+        grid-area: head;
+    }
+    header h1{
+        text-align: right;
+       font-size:2rem;
+    }
+    footer{
+        position:relative;
+        padding:50px;
+
+    }
+    footer p{
+       
+     font-size:2rem
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+    grid-template-areas: 
+    "second second third"
+    ;
+    }
+    .second{
+        
+        grid-area: third;
+    }
+    .third{
+        grid-area: second;
+    }
+    .second ul{
+    
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        
+        
+      
+    }
+    .second ul li{
+        padding:10px;
+        font-size:1rem;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        color:#fff;
+        background-color:transparent;
+        font-family:CustomFont;
+        grid-template-areas: 
+        "thep thev thev"
+        ;
+    }
+    .second ul li p{
+        align-self: center;
+        font-size:1.3rem;
+        grid-area: thep;
+    }
+    .second ul li video{
+        display:block;
+        grid-area: thev;
+    }
+    .third a{
+    display:flex;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    " vid vid vid pa"
+    ;
+  
+}
+a video{
+ margin-left:20%;
+    grid-area: vid;
+   
+}
+a p{
+    grid-area: pa;
+    margin:10px ;
+    margin-right:60%;
+    width:100px;
+    font-size:1.4rem;
+    padding:20px;
+    text-align: center;
+    line-height: 30px;
+    height:30px;
+    align-self: center;
+    background: #000;
+    color: #fff;
+        border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: bolder;
+}
+}
+

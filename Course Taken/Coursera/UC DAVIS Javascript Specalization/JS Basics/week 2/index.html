@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 1 test</title>
+</head>
+<body>
+    <h1>This is editable website</h1>
+    <script>
+    //    const myString="Hello this is really nathnael tamirat";
+    //    const myStringU=myString.toUpperCase();
+    //    console.log(myStringU);
+    //    const local=myString.search("really");
+    //    var specialWord=myString.substr(local,6);
+    //    specialWord=specialWord.toUpperCase();
+    //    const replaceStr=myString.replace("really",specialWord)
+    //    console.log(replaceStr);
+    // const food=["cheese","Injera","Burger","Pizza"];
+    // const message="my favourite food is";
+    // for(let item of food){
+    //     console.log(`${message} ${item}`)
+    // }
+    // Javascript Basic Challenge
+    // const name=parseInt(prompt("Write a whole number"));
+    // if(isNaN(name)||typeof(name)!="number"){
+    //     console.log("error");
+    // }
+    const foods=["cheese","hamberger","burger","pizza"]
+    function randomNumber(min,max){
+        let number=max-min+1;
+        let random=Math.random();
+        let result=number*random
+        let final=Math.floor(result);
+        let finish=final+min;
+        return foods[finish];
+        
+    }
+    function newMessage(){
+        var hello="hello";
+        console.log(hello)
+    }
+    window.newMessage();
+
+    </script>
+</body>
+</html>

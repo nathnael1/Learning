@@ -1,0 +1,207 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+ 
+}
+#navbar ul{
+  list-style-type:none;
+display:flex;
+justify-content:flex-end;
+
+}
+
+#navbar ul li{
+  padding:20px;
+  
+}
+#navbar ul li a{
+  text-decoration:none;
+  color:#fff;
+  font-size:125%;
+  font-weight:bold;
+}
+.wrapper{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:10vh 100vh;
+     background-color: #57648C;
+
+    grid-auto-rows: minmax(15px,auto);
+    grid-template-areas:
+    "navbar navbar navbar navbar"
+    "welcome welcome welcome welcome"
+    "add add add add"
+    "projects projects projects projects"
+
+    "contact contact contact contact "
+  ;
+ 
+}
+
+
+.add{
+  grid-area:add;
+  text-align:center;
+  padding:20px;
+  text-decoration:underline;
+  padding-bottom:40px;
+  background-color: #C2B4D6;
+}
+#navbar{
+  grid-area:navbar;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  background-color:#934A5F;
+}
+
+
+#welcome-section{
+  grid-area:welcome;
+  margin-top:2%;
+  background-color:#57648C;
+  
+}
+#welcome-section h1{
+  margin-top:250px;
+  font-size:70px
+}
+#welcome-section h1, #welcome-section p{
+ text-align:center;
+
+}
+
+
+#projects{
+  grid-area:projects;
+  display:grid;
+  background-color: #C2B4D6; 
+  grid-template-columns:repeat(3,1fr);
+  grid-column-gap:10px;
+  padding:20px;
+}
+#contact{
+  grid-area:contact;
+  background-color: #57648C;
+}
+#projects h1{
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+img{
+  width:100%;
+  max-width:700px;
+  min-width:300px;
+  height:300px;
+  
+}
+.grid span{
+  display:inline-block;
+  width:100%;
+  background-color:gray;
+  padding:20px;
+  margin-bottom:20px;
+  text-align:center;
+  color:#fff;
+  font-weight:bold;
+ 
+}
+.grid a{
+  text-decoration:none;
+}
+.button{
+  
+  display:block;
+  background-color:gray;
+  width:40%;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+  margin-left:130%;
+  height:30px;
+  padding-top:5px;
+  margin-bottom:20px;
+}
+#contact h1{
+  text-align:center;
+  padding:20px;
+  color:#fff;
+  font-size:2em;
+  font-weight:bold;
+  font-family:Tahoma,sans-serif;
+
+}
+#contact p{
+  text-align:center;
+  color:#fff;
+}
+#contact ul{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  list-style-type:none;
+  margin-top:50px;
+  margin-bottom:200px;
+}
+#contact ul li a{
+  text-decoration:none;
+  color:fff;
+  font-size:2em;
+  font-weight:bolder;
+  font-style:Tahoma,sans-serif;
+  
+}
+hr{
+  border:3px solid red;
+}
+.summary{
+  
+  display:flex;
+justify-content:space-around;
+padding:25px;
+}
+.summary *{
+  color:#fff;
+  font-style:Tahoma, sans-serif;
+  font-weight:200px;
+  padding-right:30px;
+  font-size:1.3em;
+}
+#contact ul li{
+  transition:all ease .5s;
+}
+#contact ul li:hover{
+  transform: translateY(8px);
+}
+
+i{
+  font-size:1em;
+  padding:10px;
+}
+@media all and (max-width:975px){
+  #projects{
+
+  grid-template-columns:repeat(2,1fr);
+  
+  }
+  .button{
+    margin-left:80%
+  }
+  #welcome-section h1{font-size:40px;}
+
+}
+
+@media all and (max-width:650px){
+  #projects{
+    grid-template-columns:1fr;
+    
+ 
+}
+.button{
+  margin-left:30%
+}
+}

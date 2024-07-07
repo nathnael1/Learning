@@ -1,0 +1,12 @@
+Responsive Week 1 Coursera
+Online tool for responsive tool: http://ami.responsivedesign.is/
+Responsive options : Responsive web design - responsible one web page
+		     Adaptive Desing(dynamic serving) - multiple page for d/f devices.
+		     Separate Mobile site (-m) -separate page url for mobile site.
+Use meta tag for search engine optimization.
+http://pxtoem.com/ - Pixel to Em.
+<meta name="viewport" content="width=device-width, initial-scale=1"> -  for zoom in many device.
+em - font size of the element. The down side is it decrease the font when nesting element. 
+rem - font size of the root element.
+vw or vh - 1/100 width and length respectivly.
+

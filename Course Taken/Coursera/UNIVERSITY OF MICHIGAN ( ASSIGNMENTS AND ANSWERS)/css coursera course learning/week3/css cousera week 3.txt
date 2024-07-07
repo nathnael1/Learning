@@ -1,0 +1,25 @@
+CSS coursera week 3 design short note.
+Forms(interfrances) :enabled,:checked,:disabled
+:first-child - positional or structural
+:nth-child- ,,,,,,,,,,,,,
+:empty -  ,,,,,,,,,,,,,,,,
+:only-of-type - ,,,,,,,,,,,
+:last-of:type  - ,,,,,,,,,,
+::first-letter,:first-line: textual
+:before,:after - :positional/generated
+::selection - fragments
+transition-propperty - size,color, position.
+transition-duration - how long.
+transition-timing - linear or ease in or ease out.
+transition-delay - how long to begin .
+after we define it like this we use psuedo class and add the new properties we want to change.
+shorthand for transitions. transition: property,duration,timing function;
+2D Transform options are :translate,rotate,scale,skew,matrix.
+translate 2 values x any to move.-ve and + ve values are supported eg transform:translate((x,y);
+rotate using deggrees - eg transform:rotate(30DEG);
+scale - for resizing example transform- scale(width,height).
+transform:skew(x angle,y angle) - rotating 1 side with x angle and y angle.
+3D rotate includes transform:rotatex(deg),transform:rotateY(deg),transform:rotateZ(deg) or transform:rotate3d(x,y,z).
+position properties: static(Default value not top , notright doesn'take any value.),relative,absolute,fixed.
+relaative same as static but now we can use offsets.
+z-index: - used for to make an element over the top.

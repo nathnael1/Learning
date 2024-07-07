@@ -1,0 +1,9 @@
+library
+tensorflow,tf-keras,cryptography,os.path,re,time,sys,string,secrets,io
+from unittest.mock import patch
+
+pip install
+pip install tensorflow
+pip install tf-keras
+pip install cryptography
+pip install secrets

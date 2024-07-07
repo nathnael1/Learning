@@ -1,0 +1,10 @@
+Courser CSS Advanced Styling Week 2
+in source of css media="screen and print"
+2 query comonents are media type and actual query.
+3 ways for media query to use 
+1st @import url(style.css) screen and (min-width:600px)
+2nd @media screen(all) and (min-width:500px ){...}
+3rd <link rel="stylesheet" media="screen and (min-width:400px)"> and (orientation:portraiat)>
+wireframe is a visual representation of your layout.
+always remmember for the mobile views.
+1em is 1M(letter).

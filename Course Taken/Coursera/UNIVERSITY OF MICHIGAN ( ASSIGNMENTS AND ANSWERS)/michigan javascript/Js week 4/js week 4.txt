@@ -1,0 +1,8 @@
+Js 4
+we use label to activate other field using for for example <label for=name....> if we onclick it it can activate any thing in name 'name'. for example
+by adding the text i can click the ccheck box or radio box
+<form novalidate> -- will ignore all the requirement in the format.
+we use pattern to validate a pattern.
+there are attribute like oninput(as soon as we type in) and onchange(as soon as we done typing).
+to validate the submit we use this code: <input type="submit" value="confirm email" onclick="return check()"/> to check weather return value is false or not
+checkbox shoud have the same name.

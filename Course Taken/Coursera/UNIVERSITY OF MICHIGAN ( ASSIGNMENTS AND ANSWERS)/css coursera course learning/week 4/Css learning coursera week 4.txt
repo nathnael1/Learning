@@ -1,0 +1,6 @@
+CSS learning week 4
+verticla-align:top or bottom - to allign a text at the top or the bottom.
+Don't use the tag because of how itl looks use it by depending on the semantic element if you want the style of tag  style to replicate it.
+use offset {position :absolute; left:-100px and use tab to activate it
+plan it for everyone and accesible for everyone.
+line hight same as text size middle.

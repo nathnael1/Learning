@@ -1,0 +1,14 @@
+Advanced Styling Week 4 CSS
+use Max-width and Min-width and seet the height to auto or leave it aloone.
+image responsive Bootstrap - img-responsive - to make them responsibe
+			     img-rounded- to make them rounde in the corners
+			     img-circle- only show the circle part.
+			     img-thumbnail- to show them like thumbnail.
+.table:some padding and horizontal divider
+.table-striped: zebra stripes where "odd" rows have light color.
+.table-bordered-add borders.
+.table-hover,responsive table(under 768 px scroll).
+to make it responsive add a div tag and inside .table-responsive. it must be in parent container.
+on table element we can use class that can only chang colors and those are active warning sucess, and danger. 
+* Always remmember when you link bootstrap first add the jquery then the javascript respectivly.
+git checkout gh-pages - we must do this after cloning git site.

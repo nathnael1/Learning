@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/952161e113.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Freshman Resource</title>
+</head>
+<body>
+
+    <nav class="navbar sticky-top bg-light navbar-light  navbar-expand-sm">
+        <span class="pl-md-4 navbar-brand font-weight-bold">Freshman Resource NS</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcontent">
+            <ul class="navbar-nav ml-auto">
+                <li class=" pr-lg-2 nav-item  ">
+                    <a href="index.html" class="nav-link">TextBook</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="RB.html" class="pr-lg-2 nav-link">Reference</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="Tg.html" class="pr-lg-4 nav-link">Teachers Guide</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <div class="jumbotron pt-5 jumbotron-fluid pb-0 " >
+        <div class="container-fluid"> 
+            <div class="row ">
+                <div class="col-md-5 text-center pl-lg-5 text-md-left col-lg-4 ">
+                    <p class="pt-sm-2 pt-md-4 display-4 font-weight-bold font-italic">
+                        Embrace the unknown
+                    </p>
+                    <p class="small">
+                        for in the journey of academia, every challenge is an opportunity to grow and thrive."
+                    </p>
+                    <button class="btn btn-lg mb-3 info btn-outline-primary" type="button">
+                        <a href="#more" class="font-weight-bold infoo  ">More info</a>
+                    </button>
+                    <ul class="row rowo p-0  mb-2">
+                        
+                            <li class="col-md-2 ml-3  first-link rounded border  mr-2"> <a class="" href="http://t.me/Nathnael-tamirat" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram" style="color: #000;"></i></a></li>
+                            <li class="col-md-2  first-link rounded  border mr-2"> <a href="https://twitter.com/n_codingjourney" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter" style="color: #000;"></i></a></li>
+                            <li class="col-md-2 first-link rounded border mr-2"> <a href="https://www.instagram.com/nathnael_tamirat/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" style="color: #000;"></i></a></li>
+                     </ul>
+                      
+                </div>
+                <div class="col-md-6 ml-left col-lg-8 pt-md-4 text-center">
+                    <img src="student.jpg" class="img-fluid h-75 float-sm-none float-md-right "  alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pl-4 mb-2">
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4 card  tg">
+                <a href="Gui/Maths guide.pdf"id="more">
+                <div class="wrapper" onmouseover="ca(0,this)" onmouseleave="caa(0)" >
+                <img src="Image for scratch website/Maths.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold">Maths Guide</div>
+                    <p class="card-text">
+                        Unlock the wonders of mathematics with our Freshman Module Math Teacher Guide – a compass for educators navigating the rich landscape of mathematical discovery, guiding students toward mastery and understanding.                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 card ">
+                <a href="Gui/Comm. English I Teacher's Guide (Units 1 & 3 Only).pdf">
+                <div class="wrapper"onmouseover="ca(1,this)" onmouseleave="caa(1)">
+                <img src="Image for scratch website/English.jpg"    class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">English I Teacher's Guide (Units 1 & 3 Only)</div>
+                    <p class="card-text">  
+                        Unlock the power of language with the English Teacher Guide course for freshmen, Module 
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+
+
+            
+            <div class=" col-sm-3 card newassign  "  onclick="openCustomAlertlast()"  onmouseover="changeImage()" onmouseleave="backImage()" >
+                <div class="ad ">
+                <div class="card-header personal ">Personal Devlopment</div>
+                    <img src="Image for scratch website/pd.jpg"   class=" pd card-img-top img-fluid">
+                    <div class="card-footer text-center">Coming Soon</div>
+                </div>
+            </div>
+           <div class="col-md-4  col-sm-6  card ">
+                <a href="Gui/Comm. English II Teacher's Guide.pdf">
+                <div class="wrapper"onmouseover="ca(2,this)" onmouseleave="caa(2)">
+                <img src="Image for scratch website/English.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">English II Teacher's Guide</div>
+                    <p class="card-text">  
+                        Unlock the power of language with the English Teacher Guide course for freshmen, Module.
+                    </p>
+                </div>
+            </div>
+            </a>
+            </div>
+            <div class=" col-sm-3 card  ">
+                <div class="ad "onmouseover="changeImage1()" onclick="openCustomAlertlast()"  onmouseleave="backImage1()">
+                <div class="card-header text-center">Lecture notes</div>
+                    <img src="Image for scratch website/ad.jpg"   class="image1 card-img-top img-fluid">
+                    <div class="card-footer text-center">Coming Soon</div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <div class="overlayone" id="overlaylast"></div>
+    <div class="modalone" id="customAlertlast">
+        <p>We will upload it Soon<small><br>made by nathnael tamirat</small></p>
+        <button onclick="closeCustomAlertlast()" style="margin-left: 35%;">OK</button>
+    </div>
+    <footer class="container-fluid bg-dark ">
+        <div class="row">
+            <div class="col-6 col-md-4 pt-2">
+                <p class="colorone font-weight-bold">Links</p>
+               <a href="index.html" class="fl"> <p class="color">Textbook</p></a>
+                <a href="RB.html"class="fl"><p class="color"> Reference</p></a>
+                <a href="Tg.html"class="fl"><p class="color">Teacher Guide</p></a>
+            </div>
+        
+        <div class="col-6 col-md-4 pt-2">
+            <p class="colorone font-weight-bold">Contact us</p>
+            <a href="mailto:nathnaeltamirat3@gmail.com"class="fl"><p class="color">nathnaeltamirat3@gmail.com</p></a>
+          <a href="tel:+251926727954"class="fl"><p class="color">+251926727954</p></a>  
+           <a href="tel:+251703727954"class="fl"><p class="color">+251703727954</p></a>
+         
+        </div>
+        <div class="col-12 col-md-4 pt-2">
+            <p class="colorone text-center text-md-left font-weight-bold ">Social media</p>  
+            <ul class="row p-0  neww mt-md-2 mb-md-2  ">
+                     
+                <li class="col-2 col-md-1 text-center px-4  "> <a class="px-2 rounded btn last-link border bordert " href="http://t.me/Nathnael-tamirat" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram icon" style="color: #000;"></i></a></li>
+                <li class="col-2 col-md-1 text-center px-4"> <a class="px-2 rounded last-link btn border borderx " href="https://twitter.com/n_codingjourney" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter icon" style="color: #000;"></i></a></li>
+                <li class="col-2 col-md-1 text-center px-4 "> <a class="px-2 rounded last-link btn border borderx" href="https://www.instagram.com/nathnael_tamirat/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram icon" style="color: #000;"></i></a></li>
+         </ul>
+        </div>
+
+
+    </div>
+<hr class="my-0 mx-auto">
+<p class="m-0 foot p-2 text-center font-weight-bold">Nathnael Tamirat (AASTU) &copy 2023</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

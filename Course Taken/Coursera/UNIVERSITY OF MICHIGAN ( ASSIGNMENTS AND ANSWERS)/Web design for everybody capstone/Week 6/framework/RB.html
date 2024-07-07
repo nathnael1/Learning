@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/952161e113.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Freshman Resource</title>
+</head>
+<body>
+    <div class="overlayone" id="overlayone"></div>
+    <div class="modalone" id="customAlertone">
+        <p>This pdf is about 30 MB are you sure to download <small><br>made by nathnael tamirat</small></p>
+        <a target="_blank" href="Ref/Essentials of Psychology (Bernstein and Nash).pdf"> <button onclick="closeCustomAlert()">Continue</button></a>
+        <button onclick="closeCustomAlert()">Close</button>
+    </div>
+    <div class="overlayone" id="overlaytwo"></div>
+    <div class="modalone" id="customAlerttwo">
+        <p>This pdf is about 36 MB are you sure to download <small><br>made by nathnael tamirat</small></p>
+        <a target="_blank" href="Ref/Essentials of Psychology (Nevid).pdf"> <button onclick="closeCustomAlert()">Continue</button></a>
+        <button onclick="closeCustomAlerttwo()">Close</button>
+    </div>
+    <div class="overlayone" id="overlaythree"></div>
+    <div class="modalone" id="customAlertthree">
+        <p>This pdf is about 30 MB are you sure to download <small><br>made by nathnael tamirat</small></p>
+        <a target="_blank" href="Ref/መሠረታዊ_ሎጂክና_ሕጸጽ_ካሣሁን_ዓለሙ.pdf"> <button onclick="closeCustomAlert()">Continue</button></a>
+        <button onclick="closeCustomAlertthree()">Close</button>
+    </div>
+    <nav class="navbar sticky-top bg-light navbar-light  navbar-expand-sm">
+        <span class="pl-md-4 navbar-brand font-weight-bold">Freshman Resource NS</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcontent">
+            <ul class="navbar-nav ml-auto">
+                <li class=" pr-lg-2 nav-item  ">
+                    <a href="index.html" class="nav-link">TextBook</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="RB.html" class="active pr-lg-2 nav-link">Reference</a>
+                </li>
+                <li class="nav-item">
+                    <a href="TG.html" class="pr-lg-4 nav-link">Teachers Guide</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <div class="jumbotron pt-5 jumbotron-fluid pb-0 " >
+        <div class="container-fluid"> 
+            <div class="row ">
+                <div class="col-md-5 text-center pl-lg-5 text-md-left col-lg-4 ">
+                    <p class="pt-sm-2 pt-md-4 display-4 font-weight-bold font-italic">
+                        Embrace the unknown
+                    </p>
+                    <p class="small">
+                        for in the journey of academia, every challenge is an opportunity to grow and thrive."
+                    </p>
+                    <button class="btn btn-lg mb-3 info btn-outline-primary" type="button">
+                        <a href="#more" class="font-weight-bold infoo  ">More info</a>
+                    </button>
+                    <ul class="row rowo p-0  mb-2">
+                        
+                            <li class="col-md-2 ml-3  first-link rounded border  mr-2"> <a class="" href="http://t.me/Nathnael-tamirat" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram" style="color: #000;"></i></a></li>
+                            <li class="col-md-2  first-link rounded  border mr-2"> <a href="https://twitter.com/n_codingjourney" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter" style="color: #000;"></i></a></li>
+                            <li class="col-md-2 first-link rounded border mr-2"> <a href="https://www.instagram.com/nathnael_tamirat/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" style="color: #000;"></i></a></li>
+                     </ul>
+                      
+                </div>
+                <div class="col-md-6 ml-auto col-lg-8 pt-md-4 text-center">
+                    <img src="student.jpg" class="img-fluid h-75 float-sm-none float-md-right "  alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pl-4 mb-2">
+        <div class="row">
+            
+            <div class="col-md-4 col-sm-6 card ">
+                <!-- <a href="pdf/maths for ns.pdf" target="_blank" id="more"> -->
+                <div class="wrapper" onclick="openCustomAlert()" onmouseover="ca(0,this)" onmouseleave="caa(0)" >
+                <img src="Ref/Essentials of Psychology (Bernstein and Nash).jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold">Essential of Psychology (B and N)</div>
+                    <p class="card-text">
+                        Delve into the fascinating realm of the mind, where every neuron holds the key to understanding the intricate tapestry of human behavior and cognition in your Psychology freshman module.
+                       
+                    </p>
+                </div>
+                </div>
+                <!-- </a> -->
+            </div>
+            <div class="col-md-4 col-sm-6 card ">
+                <!-- <a href="pdf/physics.pdf"target="_blank"> -->
+                <div class="wrapper"onmouseover="ca(1,this)" onclick="openCustomAlerttwo()" onmouseleave="caa(1)">
+                <img src="Ref/Essentials of Psychology (Nevid).jpg"    class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Essentials of Psychology-N</div>
+                    <p class="card-text">  
+                        Delve into the fascinating realm of the mind, where every neuron holds the key to understanding the intricate tapestry of human behavior and cognition in your Psychology freshman module.
+
+                    </p>
+                </div>
+                </div>
+                <!-- </a> -->
+            </div>
+
+            <div class="col-md-4 col-sm-6 card ">
+                <a href="Ref/Conquering Creative Thinking psychology.pdf" target="_blank">
+                <div class="wrapper"onmouseover="ca(2,this)" onmouseleave="caa(2)">
+                <img src="Ref/ct  psychology.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Creative thinking Psychology</div>
+                    <p class="card-text">  
+                        Delve into the fascinating realm of the mind, where every neuron holds the key to understanding the intricate tapestry of human behavior and cognition in your Psychology freshman module.
+                    </p>
+                </div>
+            </div>
+            </a>
+            </div>
+            <div class="col-md-4 col-sm-6 card "onmouseover="ca(3,this)"  onclick="openCustomAlertthree()" onmouseleave="caa(3)">
+                <!-- <a href="pdf/logic.pdf"target="_blank" > -->
+                <div class="wrapper">
+                <img src="Ref/Amharic logic.jpg"   class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Amharic Logic</div>
+                    <p class="card-text">  
+Unlock the power of logic in your freshman module, where reasoning becomes your compass and critical thinking your guide
+                    </p>
+                </div>
+                </div>
+                <!-- </a> -->
+            </div>
+            <div class="col-md-4 col-sm-6 card "onmouseover="ca(4,this)" onmouseleave="caa(4)">
+                <a href="Ref/A Concise Introduction to Logic 11th Ed..pdf"target="_blank">
+                <div class="wrapper">
+                <img src="Ref/introduction to logic.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Intro to Logic</div>
+                    <p class="card-text">  
+                        Unlock the power of logic in your freshman module, where reasoning becomes your compass and critical thinking your guide
+                    </p>
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 card " onmouseover="ca(5,this)"  onmouseleave="caa(5)">
+                <a href="Ref/Critical Thinking – A Student's Intro 4th Ed..pdf"target="_blank">
+                <div class="wrapper">
+                <img src="Ref/critical thinking student intro.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Critical thinking student intro</div>
+                    <p class="card-text">  
+                        Unlock the power of logic in your freshman module, where reasoning becomes your compass and critical thinking your guide
+                    </p>
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 card "onmouseover="ca(6,this)" onmouseleave="caa(6)" >
+                <a href="Ref/Invitation to Critical Thinking 6th Ed..pdf"target="_blank">
+                <div class="wrapper">
+                <img src="Ref/critical thinking student intro.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Invitation to CRitical Thinking</div>
+                    <p class="card-text">  
+                        Unlock the power of logic in your freshman module, where reasoning becomes your compass and critical thinking your guide
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 card " onmouseover="ca(7,this)" onmouseleave="caa(7)">
+                <a href="Ref/Physics 1D Kinematics Study Guide.pdf"target="_blank">
+                <div class="wrapper">
+                <img src="Ref/physics.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Physics 1D Kinematics</div>
+                    <p class="card-text">  
+                        Embark on the fascinating journey of physics—the exploration of the fundamental forces shaping the universe, where curiosity sparks discovery and equations unveil the secrets of our physical reality.
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 card "onmouseover="ca(8,this)" onmouseleave="caa(8)">
+                <a href="Ref/classical Mechanics.pdf"target="_blank">
+                <div class="wrapper">
+                <img src="Ref/physics.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Classical Mechanics</div>
+                    <p class="card-text">  
+                        Embark on the fascinating journey of physics—the exploration of the fundamental forces shaping the universe, where curiosity sparks discovery and equations unveil the secrets of our physical reality.
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 card "onmouseover="ca(9,this)" onmouseleave="caa(9)">
+                <a href="Ref/english.jpg"target="_blank">
+                <div class="wrapper">
+                <img src="Ref/english.jpg"  class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">English</div>
+                    <p class="card-text">  
+                        Embark on the English journey, where words become bridges and stories unfold. Freshman Module: Discover the art of expression and the power of language.
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class=" col-sm-6 col-md-4  card  ">
+                <a href="Ref/civics.pdf"target="_blank">
+                <div class="wrapper"onmouseover="ca(10,this)" onmouseleave="caa(10)">
+                <img src="Ref/civic.jpg"   class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Civics</div>
+                    <p class="card-text">  
+                        In the Civics and Ethical Education course, freshmen embark on a transformative journey, exploring the principles that shape responsible citizenship and ethical decision-making for a more informed and engaged society.
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class=" col-sm-6 col-md-4  card  ">
+                <a href="Ref/Critical Thinking – Intro to Basic Skills 5th Ed..pdf"target="_blank">
+                <div class="wrapper"onmouseover="ca(11,this)" onmouseleave="caa(11)">
+                <img src="Ref/critical thinking student intro.jpg"   class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">Critical thinking intro to basic skills</div>
+                    <p class="card-text">  
+                        Unlock the power of logic in your freshman module, where reasoning becomes your compass and critical thinking your guide
+                    </p>
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-3 card assign "onclick="openCustomAlertlast()">
+                <div class="ad "onmouseover="changeImage1()" onmouseleave="backImage1()">
+                <div class="card-header text-center">Lecture notes</div>
+                    <img src="Image for scratch website/ad.jpg"   class="image1 card-img-top img-fluid">
+                    <div class="card-footer text-center">Coming Soon</div>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-md-4  card  ">
+                <a href="Ref/Maths.pdf"target="_blank">
+                <div class="wrapper"onmouseover="ca(12,this)" onmouseleave="caa(12)">
+                <img src="Ref/maths.jpg"   class="im card-img-top img-fluid">
+                <div class="card-body">
+                    <div class="card-title text-center font-weight-bold ">maths</div>
+                    <p class="card-text">
+                        In the realm of freshman applied math, unravel the beauty of real-world problem-solving, where theory meets practicality, shaping the foundation for mathematical mastery.  
+                      
+                    </p>
+                </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-3 card "onclick="openCustomAlertlast()" onmouseover="changeImage()" onmouseleave="backImage()" >
+                <div class="ad ">
+                <div class="card-header personal text-center">Personal Devlopment</div>
+                    <img src="Image for scratch website/pd.jpg"   class="im pd card-img-top img-fluid">
+                    <div class="card-footer text-center">Coming Soon</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="overlayone" id="overlaylast"></div>
+    <div class="modalone" id="customAlertlast">
+        <p>We will upload it Soon<small><br>made by nathnael tamirat</small></p>
+        <button onclick="closeCustomAlertlast()" style="margin-left: 35%;">OK</button>
+    </div>
+    <footer class="container-fluid bg-dark ">
+        <div class="row">
+            <div class="col-6 col-md-4 pt-2">
+                <p class="colorone font-weight-bold">Links</p>
+               <a href="index.html" class="fl"> <p class="color">Textbook</p></a>
+                <a href="RB.html"class="fl"><p class="color"> Reference</p></a>
+                <a href="TG.html"class="fl"><p class="color">Teacher Guide</p></a>
+            </div>
+        
+        <div class="col-6 col-md-4 pt-2">
+            <p class="colorone font-weight-bold">Contact us</p>
+            <a href="mailto:nathnaeltamirat3@gmail.com"class="fl"><p class="color">nathnaeltamirat3@gmail.com</p></a>
+          <a href="tel:+251926727954"class="fl"><p class="color">+251926727954</p></a>  
+           <a href="tel:+251703727954"class="fl"><p class="color">+251703727954</p></a>
+         
+        </div>
+        <div class="col-12 col-md-4 pt-2">
+            <p class="colorone text-center text-md-left font-weight-bold ">Social media</p>  
+            <ul class="row p-0  neww mt-md-2 mb-md-2  ">
+                     
+                <li class="col-2 col-md-1 text-center px-4  "> <a class="px-2 rounded btn last-link border bordert " href="http://t.me/Nathnael-tamirat" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram icon" style="color: #000;"></i></a></li>
+                <li class="col-2 col-md-1 text-center px-4"> <a class="px-2 rounded last-link btn border borderx " href="https://twitter.com/n_codingjourney" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter icon" style="color: #000;"></i></a></li>
+                <li class="col-2 col-md-1 text-center px-4 "> <a class="px-2 rounded last-link btn border borderx" href="https://www.instagram.com/nathnael_tamirat/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram icon" style="color: #000;"></i></a></li>
+         </ul>
+        </div>
+
+
+    </div>
+<hr class="my-0 mx-auto">
+<p class="m-0 foot p-2 text-center font-weight-bold">Nathnael Tamirat (AASTU) &copy 2023</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

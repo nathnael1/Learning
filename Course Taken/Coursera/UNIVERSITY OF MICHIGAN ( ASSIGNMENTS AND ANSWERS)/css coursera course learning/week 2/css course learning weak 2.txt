@@ -1,0 +1,26 @@
+dCSS weak 2
+border-style- Must be specified
+border-style: dotted,none,dashed,double,groove,ridge,inset,outset,hidden
+border-widht:thin,medium or large
+border-color- can take transparent
+css doesn't support negative padding.
+margin:0 auto - the element must be block, not flat, fixed or absolute position, must have width.
+font-size:rem: current size of root  element.
+a:focus - by keyboard
+a:hover - by mouse
+a:hover Must come after a:link
+a:visited and a:active must come a:hover
+list-style-type:upper-alpha - to change it to uppercase and we use lower ulpha to change it in to lower case.
+list-style-image:  - using image instead of traditional markers.. eg list-style image:square url('') .. square is an altaranative.
+list-style-position and list-style : - is anotherproperties.
+element selector1>element selector 2 : element selector 2 must be direct descendant.
+selector+selector - element must be at the same level and follow each other.
+p.main - paragraph using main class.
+a[href="info.html"]- an element a which has the value of info.html.
+a[href^=hi] l- it will mach the begining
+,,,,,,$=".png"] - match the end.
+,,,,,,*="hi"]- at any point.
+margin:0,padding:0 - to erase the default of browser.
+caniuse.com -which browser needs support of vendor prifixes.
+column-count: how many count you want  in element which is responsive.
+linear-gradient(color,color1) - fo gradient color;

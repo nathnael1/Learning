@@ -1,0 +1,10 @@
+CSS Advanced Styling Week 3
+Bootstrap jquery content : Accordion, Drop-down menus, Carousel
+bootstap - fast devlopment.
+bootstrap grid consist class of container row and colomon.
+sr-only content is hidden unless for screen reader.
+order-first, order-last for ordering bootstrap.
+Hidden only on xs	.d-none .d-sm-block
+Hidden only on xxl	.d-xxl-none
+Visible only on xs	.d-block .d-sm-none
+Visible only on sm	.d-none .d-sm-block .d-md-none

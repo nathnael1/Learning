@@ -1,0 +1,25 @@
+css course learning
+!important - a property that doesn't allow anyone to overwrite property.
+rgba - the fourth value show alpha transparency.
+www.wave.webaim.org and www.webaim.org/resources/contrastchecker/ - for color scheme.
+font-family: font types,font types - we use comma for alternativlely
+serif-fancy fonts 
+sans serif- clean one
+@font-face{font-family: name; - we use it when we wnat to create our font and we use the name in font family next.
+            src:url('');
+	   }
+font-varient: normal and small-caps - to make uppercas we use small caps.
+xx-small medium larger- when we want to use font size with out pixel or percentage(responsive).
+text-center:jusify - to try to strech as much as possible.
+line-height:50% - how much space bettween the lines.
+"" - we use quoatation mark when we use spaced letter.
+display:inline-block:same as inline but it can take height and width.
+display:none - the browser completely ignores it.
+display:inline- it is side to side but it doesn't take height and width.
+overflow:hidden,auto,scroll,visible - if the lines height are not capable of holding the text.
+display:table - a container in table model.
+display:table-cell - an element in container in table model.
+visiblity:visible 
+	  hidden - the difference between display none and visible hidden is in hidden the place for the element is there but in none it doesn't exist.
+	  collapse(only for table element)
+browser-sync start --server --directory --files "*"

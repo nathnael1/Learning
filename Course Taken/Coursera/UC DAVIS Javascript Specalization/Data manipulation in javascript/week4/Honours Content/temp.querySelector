@@ -1,0 +1,67 @@
+const mainElement=document.querySelector("main");
+let filmData;
+async function getFilms(){
+    const filmPromise= await fetch("https://ghibliapi.dev/films/");
+    const films= await filmPromise.json()
+    
+     array=films.map(each=>each)
+
+    setSort(films)
+    addCards(films);
+    filmData=films;
+    document.getElementById("order").removeAttribute("disabled")
+    
+}
+
+document.getElementById("order").addEventListener("change",function(){
+    
+   setSort(filmData);
+   addCards(filmData)
+})
+getFilms()
+function setSort(array){
+    mainElement.innerHTML=""
+    const sortOrder=document.getElementById("order").value;
+    switch(sortOrder){
+        case "title":array.sort((a,b)=>(a.title>b.title)?1:-1); break;
+        case "release_date":array.sort((a,b)=>(a.release_date>b.release_date)?1:-1); break;
+        case "rt_score":array.sort((a,b)=>(b.rt_score-a.rt_score)); break;
+    }
+
+
+}
+function addCards(array){
+    array.forEach(each=>{
+        createCard(each)
+    })
+}
+function createCard(data){
+    const card=document.createElement("article");
+    const  movieTitle=document.createElement("h2");
+    const movieTitleText=document.createTextNode(data.title)
+    movieTitle.appendChild(movieTitleText)
+
+    const  director=document.createElement("p");
+    const directorText=document.createTextNode(`director: ${data.director}`);
+    director.appendChild(directorText);
+    
+    const  year=document.createElement("p");
+    const yearText=document.createTextNode(`Released: ${data.release_date}`);
+    year.appendChild(yearText);
+
+    const  description=document.createElement("p");
+    const descriptionText=document.createTextNode(`description: ${data.description}`);
+    description.appendChild(descriptionText);
+
+    const  score=document.createElement("p");
+    const scoreText=document.createTextNode(`Rotten Tomato Scores: ${data.rt_score}`);
+    score.appendChild(scoreText);
+
+    card.appendChild(movieTitle)
+    card.appendChild(director)
+    card.appendChild(year)
+    card.appendChild(description)
+    card.appendChild(score)
+    mainElement.appendChild(card)
+
+}

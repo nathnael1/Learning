@@ -1,0 +1,191 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#eeeeee;
+}
+#header{
+  background-color:#eeeeee;
+  display:flex;
+  position:fixed;
+  height:50px;
+  width:100%;
+  top:0;
+  left:0;
+justify-content:space-between;
+
+}
+main{
+  margin-top:80px;
+}
+main h2{
+  text-align:center;
+  padding-bottom:20px;
+}
+#nav-bar{
+padding-top:15px;
+
+}
+.container{
+  margin:0 auto;
+  width:80%;
+  max-width:700px;
+  margin-top:60px;
+  margin-bottom:60px;
+}
+#nav-bar ul{
+  display:flex;
+ list-style-type:none;
+  margin-right:20px;
+
+}
+#nav-bar ul li{
+  padding-right:20px;
+ 
+}
+
+#nav-bar ul li a{
+  text-decoration:none;
+   color:#000;
+}
+
+
+input:not(.not){
+   margin:0 auto;
+   display:block;
+   width:100%;
+}
+input[type="email"]{
+   
+  height:30px;
+  max-width:275px;
+  padding-left:20px;
+}
+input[type="submit"]:not(.not){
+
+  margin-top:20px;
+  max-width:250px;
+  background-color:orange;
+  font-weight:bolder;
+  padding:4px;
+  
+}
+
+img{
+  width:30%;
+  height:40px;
+  padding-top:15px;
+}
+.grid{
+  padding-bottom:70px;
+}
+.grid:last-of-type{
+  padding-bottom:10px;
+}
+
+#video{
+  display:block;
+  width:100%;
+  max-width:500px;
+  margin:0 auto;
+}
+.flex{
+  display:flex;
+  justify-content:space-around;
+  
+}
+.flex-item{
+  border:1px solid #000;
+  height:250px;
+ margin-bottom:2%;
+  margin-top:2%;
+ 
+  
+}
+.heading{
+  background-color:#dddddd;
+ padding:30px;
+
+}
+.money{
+  padding-bottom:10px;
+  padding-top:10px;
+}
+.money,.description{
+  text-align:center;
+  padding-bottom:10px;
+}
+.not{
+  display:block;
+  margin:0 auto;
+  margin-top:20px;
+  width:30%;
+  background-color:orange;
+}
+footer{
+  width:100%;
+max-width:700px;
+background-color:#ddd;
+  margin:0 auto;
+}
+#footer ul{
+  display:flex;
+ list-style-type:none;
+ justify-content:flex-end;
+
+
+}
+#footer ul li a{
+  text-decoration:none;
+  color:#000;
+  padding-right:20px;
+
+}
+
+#footer p{
+  display:flex;
+  justify-content:flex-end;
+  padding-bottom:20px;
+  margin-top:1%;
+  padding-right:20px;
+}
+@media all and (max-width:650px){
+  .flex{
+    display:flex;
+    flex-direction:column;
+    
+    
+  }
+  .flex-item{
+    margin:0 auto;
+    width:70%;
+    margin-top:2%
+  }
+  .flex-item:last-of-type{
+    margin-bottom:2%;
+  }
+  #header{
+  display:flex;
+ flex-direction:column;
+align-items:center;
+height:120px;
+
+}
+main{
+  margin-top:160px;
+}
+#nav-bar ul{
+  display:flex;
+ list-style-type:none;
+ flex-direction:column;
+  margin-right:0px;
+
+
+}
+#nav-bar ul li{
+  padding-bottom:8px;
+  text-align:center;
+}
+}

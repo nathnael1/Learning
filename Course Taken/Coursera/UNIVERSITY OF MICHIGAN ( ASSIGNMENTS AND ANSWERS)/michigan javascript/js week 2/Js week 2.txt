@@ -1,0 +1,6 @@
+Javascript week 2
+calling function distort the line of function.
+paramaeters- are extra peice of information.
+event change the programm order.
+inorder to change the display we have to use style.css Attribute="value";
+.

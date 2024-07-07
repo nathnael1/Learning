@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="https://fonts.cdnfonts.com/css/true-dream" rel="stylesheet">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav class = "navbar navbar-expand-lg navbar-dark bg-dark p-3 ">
+            <a class="navbar-brand" href="#">CS50</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class = "navbar-collapse collapse " id = "navbarNav">
+                <ul class="navbar-nav ">
+                    <li class = "nav-item active ">
+                        <a class = "nav-link " href="#">Home<span class = "sr-only">(current)</span></a>
+                    </li>
+                    <li class = "nav-item active">
+                        <a class = "nav-link" href ="#ma">information</a>
+                    </li>
+                    <li class = "nav-item active">
+                        <a class = "nav-link" href = "#foot">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class= "container " >
+            <div class="row">
+                <div class=" main mt-4 p-4 mr-2 col-12 col-sm- 6 col-md-5 col-lg-6" id ="ma">
+                    My name is Nathnael Tamirat, and I am 18 years old from Ethiopia.
+                     Ever since I can remember, I have loved activities.
+                    <br>I love the joy of problem solving and the creativity of coding.
+                    Whether I’m developing fancy algorithms or
+                    <br>innovative software solutions,
+                     programming has always <br>
+                     been my true calling. I’m excited to continue to refine my skills and make a positive impact in the tech industry.
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3 mt-4 p-4 mr-2 mb-2 center">
+                    With a penchant for problem-solving and a passion for innovation, I strive to push the boundaries of what's possible in the world of programming.
+                    <br><span class="next" >OTHER</span>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 right p-4">
+                    "I'm Nathanael Tamirat, an aspiring full-stack web developer with a passion for innovation and problem solving. When I'm not coding, you can usually find me with me." friends hanging around, enjoying the simple pleasures of life. As one they say, I do." I have already made headway in the tech world—I’ve launched a startup waste management website and developed several smaller apps, including two cowboys with practical games and AI. Currently, I’m dedicated full stack. My motto in life while expanding my skills in web-development through learning is to never give up and always strive to be the best version of myself. With perspective and flexibility, I am ready to tackle any challenge that comes my way and make a positive impact in the technology world."
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+
+            <section class="">
+            <!-- Footer -->
+            <footer class="text-center text-white" style="background-color: #0a4275;">
+              <!-- Grid container -->
+              <div class="container p-4 pb-0">
+                <!-- Section: CTA -->
+                <section class="">
+                  <p class="d-flex justify-content-center align-items-center">
+                    <span class="me-3">Home Page</span>
+
+                  </p>
+                </section>
+
+              </div>
+
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2024 Copyright:
+                <a class="text-white" href="#" id ="foot">Nathnael Tamirat CS50</a>
+              </div>
+
+            </footer>
+
+          </section>
+
+          </div>
+
+        <script>
+        const next = document.querySelector(".center span");
+        let center = document.querySelector(".center");
+        let originalValue = center.innerHTML;
+        let checker = 0;
+        next.addEventListener("click", function () {
+
+            if (checker == 0) {
+                center.innerHTML = `"Fuelled by curiosity and a relentless drive for excellence, I'm on a journey to transform ideas into impactful digital solutions that shape the future."`;
+                checker = 1;
+            } else {
+                center.innerHTML = originalValue;
+                checker = 0;
+            }
+        })
+        </script>
+    </body>
+</html>
